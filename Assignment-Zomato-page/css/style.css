@@ -96,7 +96,7 @@ body {
 .food-category , .resturant-logos {
     position: relative;
     margin:20px 10px;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     overflow:hidden;
     padding:10px 20px;
     background-color:#F8F8F8;
@@ -106,19 +106,21 @@ body {
     display: none;
 }
 .food-item-box , .resturant-logos-item{
-    border:1px solid blue;
+    /* border:1px solid red; */
     padding:10px;
     display: flex;
     flex-flow:column;
+    justify-content: center;
+    align-items: center;
     width: 210px;
-    height: 210px;
-    /* margin-top:30px; */
+    height: 230px;
     overflow-y:hidden;
 
     flex: 0 0 auto;
 }
 .food-item-text {
-    border:1px solid blue;
+    /* border:1px solid blue; */
+    align-items: center;
     text-align: center;
     margin-top:10px;
     font-size: 20px;
@@ -141,7 +143,7 @@ body {
 
 /* Resturant logos */
 .resturant-logos {
- border:1px solid purple;
+ /* border:1px solid purple; */
  margin-right: 10px;
  padding:10px 20px;
 }
@@ -160,7 +162,7 @@ margin-bottom:10px;
     justify-content: space-evenly;
     width: 100%;
     height: 360px;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     /* margin-left:10px; */
     gap:10px;
     overflow: hidden;
@@ -170,7 +172,7 @@ margin-bottom:10px;
 {    
     margin-left:10px;
     font-size:30px;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 .food-boxes-contianer::-webkit-scrollbar
@@ -179,9 +181,8 @@ margin-bottom:10px;
 }
 
 .food-box-item {
-    border-radius: 20px;
-    /* border:1px solid red; */
-    padding:25px 5px;
+    border-radius: 22px;
+    padding:8px 5px;
     margin:0px 5px;
     width:380px;
     height: 320px;
@@ -196,9 +197,9 @@ margin-bottom:10px;
     
 }
 .food-box-item img {
-    border-radius: 25px;
+    border-radius: 22px;
     width: 350px;
-    padding:5px;
+    /* padding:5px; */
 }
 .food-box-name {
     margin-top:5px;
@@ -210,7 +211,7 @@ margin-bottom:10px;
     width:40px;
     height: 20px;
     margin-right: 5px;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     color:white;
     background-color:green;
     border-radius: 5px;
@@ -223,6 +224,18 @@ margin-bottom:10px;
    color:gray;
    margin-top:5px;
 }
+.dot-text {
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ /* border:1px solid red; */
+ width: 250px;
+}
+.img-size {
+    width:350px;
+    height:232.81px;
+}
+
 .row-b {
 display: flex;
 flex-flow:row;
