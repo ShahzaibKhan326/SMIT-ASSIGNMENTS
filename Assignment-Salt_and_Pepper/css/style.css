@@ -69,7 +69,6 @@ li a {
 .order-online {
      
     background-color: red;
-    /* position: relative; */
 }
 .nav-button-links {
      /* border:1px solid red; */
@@ -84,10 +83,7 @@ li a {
     border-radius: 50%;
     margin-left:5px;
 }
-/* .cover-image-section {
-    justify-content: center;
-    align-items: center;
-} */
+
 .cover-image {
     width:100%;
 }
@@ -137,7 +133,6 @@ text {
     background-size: 180px 110px;
     background-repeat: no-repeat;
     background-position:  center;
-    /* overflow: hidden;  */
 }
 .card-image-01 {
      background-image: url(../Images/Small_box_logos/SNP-Restaurant.webp);
