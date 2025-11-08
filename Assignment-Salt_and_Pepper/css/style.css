@@ -190,7 +190,7 @@ text {
 }
 .city-name 
 {
-    text-transform: capitalize;
+    text-transform:uppercase;
     color:red;
 }
 .building-images {
@@ -204,4 +204,7 @@ text {
 }
 .Restaurant-name {
     font-size:24px;
+}
+.address , .phone-number {
+    color:gray;
 }
