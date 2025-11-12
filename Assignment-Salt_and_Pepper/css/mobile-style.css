@@ -1,0 +1,39 @@
+.container {
+    width: 390px;
+    overflow: hidden;
+}
+.nav-container {
+    /* justify-content: space-between; */
+}
+.side-menu {
+    display: flex;
+    /* border:1px solid red; */
+    width: 60px;
+     
+}
+.side-menu i {
+    background-color:transparent;
+    font-size: 35px;
+}
+.nav-logo-img {
+    width:80px;
+    height: 40px;
+}
+.nav-links {
+    display: none;
+}
+.get-franchise {
+    display: none;
+}
+.nav-button {
+    border:1px solid white;
+    padding:5px 0px;
+    width: 120px;
+    height: 25px;
+}
+.arrow {
+    border:5px solid white;
+    color:red;
+    font-size: 18px;
+    border:1px  solid red;
+}
