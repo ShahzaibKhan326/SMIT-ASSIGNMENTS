@@ -94,10 +94,10 @@ body {
     flex-flow:column;
 }
 .food-category , .resturant-logos {
-    position: relative;
+    /* position: relative; */
     margin:20px 10px;
     /* border:1px solid blue; */
-    overflow:hidden;
+    /* overflow:hidden; */
     padding:10px 20px;
     background-color:#F8F8F8;
 }
