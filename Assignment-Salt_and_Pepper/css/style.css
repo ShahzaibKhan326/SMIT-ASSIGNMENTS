@@ -36,6 +36,17 @@ body {
 
 /*Round Links*/
 
+.rounded-link{
+    text-decoration: none;
+    padding:8px 12px;
+    border:1px solid white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    color:white;
+
+}
+
 .rounded-link::after
 {
      font-family: "FontAwesome";
@@ -43,9 +54,9 @@ body {
      color:red;
      background-color: white;
      border-radius: 50%;
-     margin-right:3px;
-     width: 18px;
-     height:18px ;
+     margin-left:5px;
+     width: 20px;
+     height:20px ;
      text-align: center;
      font-size: 15px;  
      /* transform: rotate(300deg); */
@@ -294,18 +305,10 @@ object-fit: cover;
     justify-content: space-evenly;
 
 }
-.block-address .rounded-link
+.block-address .rounded-link::after
 {
-    text-decoration: none;
-    text-align: center;
-    color:white;
-    background-color: black;
-    /* padding:8px 10px; */
-    padding-right:60px;
-    border-radius: 25px;
-    /* border: 1px solid white; */
-    border:none;
-    font-size: 20px;
+   transform: rotate(320deg);
+   color:blue;
 }
 .Row-Block-Address
 {
@@ -341,9 +344,19 @@ object-fit: cover;
     font-size:30px;
 }
 
-.village-block .get-direction {
-    border:none;
-    padding-right:20px;
+.village-block .get-direction > .rounded-link{
+    background-color: rgb(13, 71, 13);
+}
+.village-block .get-direction > .rounded-link::after{
+    background-color:white;
+    color:green;
+}
+.village-block .get-direction:hover > .rounded-link{
+    background-color:green;
+}
+.village-block .get-direction:hover > .rounded-link::after{
+    background-color:white;
+    color:red;
 }
 .village-block-container {
     border:1px solid red;
