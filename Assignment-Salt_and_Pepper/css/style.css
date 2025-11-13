@@ -69,8 +69,7 @@ body {
 .container {
     width:1000px;
     margin:0px auto;
-    /* background-color: red; */
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-container
@@ -460,7 +459,7 @@ object-fit: cover;
 .end-section-01 .content{
     /* border:1px solid red; */
      justify-content: space-between;
-     text-align: justify;
+     text-align: left;
      height:70%;
 }
 .end-section-01 img {
@@ -488,14 +487,20 @@ object-fit: cover;
 .end-section-02 li 
 {
     display: flex;
-    /* padding:5px; */
+    padding:5px;
     padding-left: 15px;
     text-align: center;
 }
+.end-section-02 a
+{
+   text-decoration: none; 
+   font-size: 20px;
+}
+
 .plus-icon {
     display: none;
-
 }
+
 .term-and-condition {
     color:gray;
 }
