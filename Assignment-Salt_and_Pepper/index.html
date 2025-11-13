@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salt And Pepper</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet"  media="screen and (max-width:480px)" href="css/mobile-style.css">
+    <link rel="stylesheet"  media="screen and (max-width:550px)" href="css/mobile-style.css">
    <script src="https://kit.fontawesome.com/4604a2fde6.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -510,8 +510,18 @@
 
         </div><!--section 01-->
         <div class="end-section-02 column ">
-              <div class="list-header">Site Links</div>
-            <div class="end-section-list-content ">
+              <div class="site-plus-row">
+                <div class="list-header">Site Links</div>
+                
+               <div class="plus-icon" id="link_plus_icon">
+                <button onclick="showContentlinks()" >+</button>
+             </div>
+            <div class="minus-icon" id="link_minus_icon">
+                <button onclick="hideContentlinks()" >-</button>
+            </div>
+
+              </div>
+            <div class="end-section-list-content" id="list-content">
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Home</a></li>
@@ -521,18 +531,26 @@
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
-          <div class="plus-icon">+</div>
 
         </div><!--section 02-->
         <div class="end-section-03 column center">
             
-            <div class="contact-us">
+           <div class="site-plus-row">
+             <div class="contact-us">
                 Contact US
             </div>
+            <div class="plus-icon" id="list_plus_icon">
+                <button onclick="showContacDetail()" >+</button>
+            </div>
+            <div class="minus-icon" id="list_minus_icon">
+                <button onclick="hideContactDetail()">-</button>
+            </div>
+           </div>
 
-            <div class="contact-detail">
 
-             <div class="Head-office-address column center">
+            <div class="contact-detail" id="content-detail">
+
+             <div class="Head-office-address column">
                 <div class="heading"><h4>Head Office Address</h4></div>
                 <div class="head-address column">
                 <p>Foodconsults (Pvt) Ltd</p>
@@ -563,9 +581,6 @@
             </div><!--free delivery-->
 
             </div>
-
-        <div class="plus-icon">+</div>
-
 
         </div><!--section 03-->
         <div class="end-section-04 column ">
@@ -599,7 +614,7 @@
 
     </div><!--end of main-container-->
     <script src="js/scripts.js">
-
+        
     </script>
 </body>
 </html>

@@ -182,32 +182,81 @@ text-align: center;
     height: 80px;
 }
 
+
 .end-section-02
 {
 width: 100%;
-flex-flow:row;
+flex-flow:column;
 justify-content: space-between;
 padding:10px;
 }
+
 .plus-icon {
+    display: flex;
+}
+.plus-icon button , .minus-icon button {
+    background-color: transparent;
+    border:none;
+    color:white;
     font-size:25px;
 }
-
-.end-section-list-content
-{
+.minus-icon {
     display: none;
 }
+.site-plus-row {
+    display: flex;
+    flex-flow:row;
+    width: 100%;
+    justify-content: space-between;
+    /* border:1px solid red; */
+}
+
+.end-section-02 ul {
+    margin:0px;
+}
+.end-section-02 li{
+    padding-left:0px;
+}
+.end-section-list-content
+{
+    background-color: black;
+    display: none;
+    /* border:1px solid lime; */  
+}
+.end-section-list-content a {
+     text-align: left;
+     text-decoration: none;
+     padding:10px 0px;
+     font-size: 18px;
+     color:white;
+     width: 450px;
+     border-bottom:1px solid gray;
+     margin:0px;
+}
+.end-section-list-content a:hover {
+    color:gray;
+}
+
 
 .end-section-03
 {
 width: 100%;
-flex-flow:row;
+flex-flow:column;
 justify-content: space-between;
 padding:10px;
+gap:0px;
+/* border:1px solid lime; */
 }
 .contact-detail
 {
+    display: flex;
+    /* flex-flow:column;
+    width: 100%; */
+}
+.contact-detail{
     display: none;
+    flex-flow:column;
+    width: 100%;
 }
 .end-section-04
 {

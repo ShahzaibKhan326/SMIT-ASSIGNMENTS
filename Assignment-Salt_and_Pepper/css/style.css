@@ -481,6 +481,10 @@ object-fit: cover;
     padding-left: 15px;
     text-align: center;
 }
+.plus-icon {
+    display: none;
+
+}
 .term-and-condition {
     color:gray;
 }
