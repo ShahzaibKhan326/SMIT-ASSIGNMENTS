@@ -87,7 +87,7 @@ display: none;
 }
 
 .menu-bar {
-    width:0px;
+    display: none;
 }
 
 .nav-logo-img {
