@@ -1,5 +1,5 @@
 .container {
-    width: 390px;
+    width: 100%;
     overflow: hidden;
 }
 .nav-container {
@@ -65,9 +65,8 @@
     display: flex;
     overflow-x:scroll;
 }
-.welcome-row::webkit-scrollbar {
+.welcome-row::-webkit-scrollbar {
     display: none;
-    height: 2px;
 }
 
 .card-image-div {
