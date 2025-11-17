@@ -18,12 +18,12 @@
     align-items: center;
 }
 .container {
-    border:1px solid red;
+    /* border:1px solid red; */
 
 }
 .header-container
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     background-color: #F5F5F5;
     width:100% ;
     display: flex;
@@ -31,18 +31,23 @@
     justify-content: center;
     padding:1px 5px;
 }
+.header1
+{
+    width: 100%;
+    border-bottom:2px solid #DEDEDE;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
 /* total width is 1000px*   120*3 */
 .img1 ,.img2 , .img3 
 {
-   border:1px solid lime;
+   /* border:1px solid lime; */
    background-color: #F5F5F5;
-   width:100px ;
+   width:120px ;
    height: 65px;
 }
 .img4,  .img5 , .img6
 {
-  background-color: #F5F5F5;
-  border:1px solid lime;
+  /* border:1px solid lime; */
   width: 200px;
   height: 65px;
 }
@@ -61,7 +66,7 @@
 .header-items
 {
     margin-right:2px;
-    background-color: white;
+    /* background-color: white; */
 }
 .header-items:hover 
 {
@@ -73,6 +78,10 @@
 .img1
 {
     background: white url(/Images/Header01/logo-pokemon-79x45.png) no-repeat center;
+    /* box-shadow: 5px 0px 4px gray; */
+      box-shadow: 
+      5px 0 5px -5px rgba(0, 0, 0, 0.5), 
+      -5px 0 5px -5px rgba(0, 0, 0, 0.5);
 }
 
 .long-image
@@ -87,4 +96,25 @@
 .long-image:hover .opacity:hover
 {
     opacity: 1;
+}
+/*Header responsive*/
+@media only screen and (max-width:750px){
+    .long-image
+    {
+        display: none;
+    }
+    
+    .img3 img
+    {
+        width: 150px;
+        border-radius: 25px;
+        border:1px solid gray;
+        box-shadow:
+         2px 2px 2px rgba(0,0,0,0.5),
+         -2px -2px 2px rgba(0,0,0,0.5);
+    }
+    .header1
+    {
+        justify-content: space-around;
+    }
 }
