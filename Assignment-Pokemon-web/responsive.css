@@ -1,0 +1,21 @@
+/*Header responsive*/
+@media only screen and (max-width:750px){
+    .long-image
+    {
+        display: none;
+    }
+    
+    .img3 img
+    {
+        width: 150px;
+        border-radius: 25px;
+        border:1px solid gray;
+        box-shadow:
+         2px 2px 2px rgba(0,0,0,0.5),
+         -2px -2px 2px rgba(0,0,0,0.5);
+    }
+    .header1
+    {
+        justify-content: space-around;
+    }
+}
