@@ -3,3 +3,64 @@
     padding: 0px;
     margin: 0px;
 }
+.row
+{
+    display: flex;
+}
+.column
+{
+    display: flex;
+    flex-flow:column
+}
+.center
+{
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border:1px solid red;
+
+}
+.header-container
+{
+    border:1px solid black;
+    width:100% ;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:1px 5px;
+}
+/* total width is 1000px*   120*3 */
+.img1 ,.img2 , .img3 
+{
+   border:1px solid lime;
+   width:120px ;
+   height: 65px;
+}
+.img4,  .img5 , .img6
+{
+  border:1px solid lime;
+  width: 200px;
+  height: 65px;
+}
+.header-items
+{
+    margin-right:2px;
+    background-color: white;
+}
+.header-items:hover 
+{
+   /* background-color:red; */
+   box-shadow: 0px 0px 3px gray;
+   transform:scale(1.01);
+   transition: transform 0.5s ease-in-out;
+}
+.img1
+{
+    background: white url(/Images/Header01/logo-pokemon-79x45.png) no-repeat center;
+}
+.img2 img 
+{
+    width: 70px;
+    height: 45px;
+}
