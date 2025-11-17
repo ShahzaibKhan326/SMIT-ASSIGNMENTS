@@ -1,3 +1,4 @@
+//animate the image with bouncing effect
 let items = document.querySelectorAll('#pikachu, #about-us');
 
 items.forEach(item => {
