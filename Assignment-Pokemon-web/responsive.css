@@ -1,5 +1,5 @@
 /*Header responsive*/
-/* @media only screen and (max-width:750px){ */
+@media only screen and (max-width:750px){
     .long-image
     {
         display: none;
@@ -18,4 +18,50 @@
     {
         justify-content: space-around;
     }
-/* } */
+    /*Header two */
+    .header-container
+    {
+        height: 150px;
+    }
+    .header02
+    {
+        height: 100px;
+        flex-flow:row;
+        justify-content: space-between;
+        background-color:rgba(0,0,0,1)
+        /* border:1px solid red; */
+    }
+    .header02-items
+    {
+        display: none;
+        margin-bottom:5px;
+    }
+
+    .icon-menu , .icon-address
+    {
+        display: flex;
+        height: 70px;
+        color:gray;
+        padding:0px 5px;
+    }
+    .icon-address
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .fa-address-card
+    {
+        font-size: 50px;
+        /* border:1px solid red; */
+        border-radius:4px;
+        overflow:hidden;
+    }
+    .fa-bars
+    {
+         font-size:50px
+    }
+    
+    
+}

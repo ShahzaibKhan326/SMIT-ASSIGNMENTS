@@ -99,15 +99,15 @@
 .header02
 {
     width: 100%;
-    border:1px solid red;
+    /* border:1px solid red; */
     background-color:#F5F5F5;
     padding:5px;
 }
-.header02-items:first-child{
+.header02-items:nth-child(2){
         border-bottom-left-radius: 20px;
         background-color: gray;
 }
-.header02-items:first-child:hover{
+.header02-items:nth-child(2):hover{
         background-color: gray;
          box-shadow: 
       5px 0 5px -5px rgba(0, 0, 0, 0.5), 
@@ -257,11 +257,7 @@
 {
     border-bottom:6px solid #1B53BA;
 }
-.fa-bars
-{
-    display: none;
-}
-.fa-address-card
+.icon-address , .icon-menu
 {
     display: none;
 }
