@@ -103,11 +103,11 @@
     background-color:#F5F5F5;
     padding:5px;
 }
-.header02-items:nth-child(2){
+.header02-items:nth-child(1){
         border-bottom-left-radius: 20px;
         background-color: gray;
 }
-.header02-items:nth-child(2):hover{
+.header02-items:nth-child(1):hover{
         background-color: gray;
          box-shadow: 
       5px 0 5px -5px rgba(0, 0, 0, 0.5), 

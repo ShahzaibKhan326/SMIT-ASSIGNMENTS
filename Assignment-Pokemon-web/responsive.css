@@ -73,14 +73,24 @@
         height: 100px;
         flex-flow:row;
         justify-content: space-between;
-        background-color:rgba(0,0,0,1)
+        background-color:rgba(0,0,0,1);
+        position:relative;
         /* border:1px solid red; */
     }
     .header02-items
     {
-        display: none;
-        margin-bottom:5px;
+        display: flex;
+        flex-flow:row;
+        width: 300px;
+        justify-content:space-around;
+        border:1px solid red;
+        /* margin-bottom:5px; */
     }
+    .menu-items
+  {
+    position:absolute;
+    top:80px
+  }
 
     .icon-menu , .icon-address
     {
@@ -112,8 +122,5 @@
     border:none;
     color:white;
   }
-  .header1
-  {
-    flex-flow:column;
-  }  
+  
 }
