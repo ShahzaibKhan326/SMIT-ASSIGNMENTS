@@ -10,3 +10,17 @@ items.forEach(item => {
         this.classList.remove('animate__bounce');
     });
 });
+//show and hide long Tab
+
+let targetDiv = document.querySelector('.long-image');
+function showLongTab()
+{
+if(targetDiv.style.display==="flex")
+{
+    targetDiv.style.display="none"
+}
+else 
+{
+  targetDiv.style.display="flex";
+}
+}

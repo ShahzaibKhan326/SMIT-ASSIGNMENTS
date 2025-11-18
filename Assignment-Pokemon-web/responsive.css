@@ -1,8 +1,30 @@
 /*Header responsive*/
 @media only screen and (max-width:750px){
+   
+   .header-container
+   {
+    position: relative;
+   }
     .long-image
     {
+        display: flex;
+        flex-flow:column;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top:65px;
+        right:0px;
+        background-color:white;
+        width:230px;
+        height: 250px;
+        /* border:1px solid red; */
         display: none;
+    }
+    .header-content01
+    {
+        width:100%;
+        /* border:1px solid red; */
+        justify-content: space-between;
     }
     .img1
     {
@@ -38,7 +60,7 @@
   
     .header1
     {
-        justify-content: space-between;
+        position: relative;
     }
     /*Header two */
     .header-container
@@ -90,11 +112,8 @@
     border:none;
     color:white;
   }
-  .item
+  .header1
   {
-   position:absolute;
-   top:0;
-   left:0;
-  }
-    
+    flex-flow:column;
+  }  
 }
