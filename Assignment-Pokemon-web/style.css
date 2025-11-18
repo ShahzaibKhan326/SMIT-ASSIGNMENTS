@@ -115,31 +115,47 @@
 .header02-items
 {
     border:1px solid red;
-    gap:12px;
-}
-
-.poki-ball
-{
-      background-color: yellow;
-      width:45px;
-      height: 45px;
-      background: url(/Images/Header02-icons/pokeball-icon-27047.jpg) no-repeat center;
-      background-size: 48px 48px;
-      border-radius: 50%;  
-      transition: transform 0.5s ease;
-    
-}
-.poki-ball:hover{
-    transform: rotate(360deg) scale(1.1);
 }
 
 .rabbit-logo
 {
     gap:2px;
+    border:1px solid red;
+    width: 75px;
+    height: 75px;
 }
 .rabbit-logo img
 {
-    width:75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
 }
 
+.h2-img2 ,.h2-img3
+{
+    justify-content: space-evenly;
+}
+.bg-size
+{
+      background-color: yellow;
+      width:45px;
+      height: 45px;
+      background-size: 48px 48px;
+      transition: transform 0.5s ease; 
+      background-repeat: no-repeat; 
+      background-position: center center;
+      /* justify-content: center;
+      align-items: center; */
+}
+.poki-ball
+{
+      background-image:url(/Images/Header02-icons/pokeball-icon-27047.jpg);
+      border-radius: 50%;  
+}
+.poki-ball:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+
+.game-pad
+{
+    background-image:url(/Images/Header02-icons/Controller.png)  no-repeat center;
+}
