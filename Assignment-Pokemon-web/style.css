@@ -104,10 +104,42 @@
     width: 100%;
     border:1px solid red;
     background-color:#F5F5F5;
+    padding:5px;
 }
 .header02-items
 {
     border:1px solid lime;
-    width: 160px ;
-    height: 80px;
+    width: 150px ;
+    height: 100px;
 }
+.header02-items
+{
+    border:1px solid red;
+    gap:12px;
+}
+
+.poki-ball
+{
+      background-color: yellow;
+      width:45px;
+      height: 45px;
+      background: url(/Images/Header02-icons/pokeball-icon-27047.jpg) no-repeat center;
+      background-size: 48px 48px;
+      border-radius: 50%;  
+      transition: transform 0.5s ease;
+    
+}
+.poki-ball:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+
+.rabbit-logo
+{
+    gap:2px;
+}
+.rabbit-logo img
+{
+    width:75px;
+    height: 75px;
+}
+
