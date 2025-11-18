@@ -115,7 +115,20 @@
 .header02-items
 {
     border:1px solid red;
+    overflow: hidden;
 }
+.header02-items:hover
+{
+    background:gray;
+}
+
+.header02-items:hover  .rotation
+{
+    transform: rotate(360deg) scale(1.1);
+    background-color:gray;
+    overflow: hidden;
+}
+
 
 .rabbit-logo
 {
@@ -130,13 +143,9 @@
     height: 100px;
 }
 
-.h2-img2 ,.h2-img3
-{
-    justify-content: space-evenly;
-}
 .bg-size
 {
-      background-color: yellow;
+      /* background-color: yellow; */
       width:45px;
       height: 45px;
       background-size: 48px 48px;
@@ -146,16 +155,29 @@
       /* justify-content: center;
       align-items: center; */
 }
+.title
+{
+    margin-top:5px;
+    align-self: center;
+}
 .poki-ball
 {
       background-image:url(/Images/Header02-icons/pokeball-icon-27047.jpg);
       border-radius: 50%;  
 }
-.poki-ball:hover{
-    transform: rotate(360deg) scale(1.1);
-}
 
-.game-pad
+.bg-size02
 {
-    background-image:url(/Images/Header02-icons/Controller.png)  no-repeat center;
+    width: 67px;
+    height: 67px;
+    background-size: 80px 80px;
+    border-radius: 50%;  
+    border:1px solid lime;
+    transition: transform 0.5s ease; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+.game-pad
+{ 
+    background-image: url(/Images/Header02-icons/game_controller02.png); 
 }
