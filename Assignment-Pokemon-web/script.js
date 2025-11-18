@@ -24,3 +24,18 @@ else
   targetDiv.style.display="flex";
 }
 }
+
+//show menu links
+let MenuLinks = document.querySelector('.menu-items');
+
+function showMenuLink()
+{
+    if(MenuLinks.style.display==="flex")
+{
+    MenuLinks.style.display="none"
+}
+else 
+{
+  MenuLinks.style.display="flex";
+}
+}
