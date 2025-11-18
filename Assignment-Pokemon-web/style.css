@@ -106,20 +106,27 @@
     background-color:#F5F5F5;
     padding:5px;
 }
+.header02-items:first-child{
+        border-bottom-left-radius: 20px;
+        background-color: gray;
+}
+.header02-items:first-child:hover{
+        background-color: gray;
+         box-shadow: 
+      5px 0 5px -5px rgba(0, 0, 0, 0.5), 
+      -5px 0 5px -5px rgba(0, 0, 0, 0.5);
+        
+}
 .header02-items
 {
-    border:1px solid lime;
+    /* border:1px solid lime; */
     width: 150px ;
     height: 100px;
 }
 .header02-items
 {
-    border:1px solid red;
+    /* border:1px solid red; */
     overflow: hidden;
-}
-.header02-items:hover
-{
-    background:gray;
 }
 
 .header02-items:hover  .rotation
@@ -128,12 +135,40 @@
     background-color:gray;
     overflow: hidden;
 }
+.header02-items:hover  .title
+{
+    color:white
+}
+.header02-items:hover
+{
+   box-shadow: 
+      5px 0 5px -5px rgba(0, 0, 0, 0.5), 
+      -5px 0 5px -5px rgba(0, 0, 0, 0.5);
+}
 
+.bg-size02
+{
+    width: 67px;
+    height: 67px;
+    background-size: 80px 80px;
+    border-radius: 50%;  
+    /* border:1px solid lime; */
+    transition: transform 0.5s ease; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+
+.title
+{
+    margin-top:5px;
+    align-self: center;
+}
 
 .rabbit-logo
 {
     gap:2px;
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 75px;
     height: 75px;
 }
@@ -143,41 +178,33 @@
     height: 100px;
 }
 
-.bg-size
-{
-      /* background-color: yellow; */
-      width:45px;
-      height: 45px;
-      background-size: 48px 48px;
-      transition: transform 0.5s ease; 
-      background-repeat: no-repeat; 
-      background-position: center center;
-      /* justify-content: center;
-      align-items: center; */
-}
-.title
-{
-    margin-top:5px;
-    align-self: center;
-}
 .poki-ball
 {
       background-image:url(/Images/Header02-icons/pokeball-icon-27047.jpg);
       border-radius: 50%;  
 }
-
-.bg-size02
-{
-    width: 67px;
-    height: 67px;
-    background-size: 80px 80px;
-    border-radius: 50%;  
-    border:1px solid lime;
-    transition: transform 0.5s ease; 
-    background-repeat: no-repeat; 
-    background-position: center center;
-}
 .game-pad
 { 
     background-image: url(/Images/Header02-icons/game_controller02.png); 
 }
+.animation
+{ 
+    background-image: url(/Images/Header02-icons/playButton.png); 
+}
+.trading-card
+{
+   background-image: url(/Images/Header02-icons/tradding_cards.png);  
+   /* transform: rotate(350deg); */
+}
+.cup
+{ 
+    background-image: url(/Images/Header02-icons/cup.png); 
+    background-size: 65px 65px;
+}
+.news-paper
+{ 
+    background-image: url(/Images/Header02-icons/news-paper.png );
+    background-size: 65px 65px;
+
+}
+
