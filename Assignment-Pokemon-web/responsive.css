@@ -4,23 +4,46 @@
     {
         display: none;
     }
+    .img1
+    {
+        /* border:1px solid red; */
+        width:200px
+    }
     
     .img3 img
     {
-        width: 150px;
+        width: 120px;
         border-radius: 25px;
         border:1px solid gray;
         box-shadow:
          2px 2px 2px rgba(0,0,0,0.5),
          -2px -2px 2px rgba(0,0,0,0.5);
     }
+    .arrow-container
+  {
+    display: flex;
+    width: 80px;
+    border:1px solid lime;
+    display: flex;
+
+  }
+  .arrow-container button {
+    color:black;
+  }
+  .arrow 
+  {
+    font-size:50px;
+    font-weight: bold;
+  }
+  
     .header1
     {
-        justify-content: space-around;
+        justify-content: space-between;
     }
     /*Header two */
     .header-container
     {
+        border:1px solid red;
         height: 150px;
     }
     .header02
@@ -62,6 +85,16 @@
     {
          font-size:50px
     }
-    
+  button {
+    background-color:transparent;
+    border:none;
+    color:white;
+  }
+  .item
+  {
+   position:absolute;
+   top:0;
+   left:0;
+  }
     
 }
