@@ -1,5 +1,5 @@
 /*Header responsive*/
-@media only screen and (max-width:750px){
+/* @media only screen and (max-width:750px){ */
     .long-image
     {
         display: none;
@@ -18,4 +18,4 @@
     {
         justify-content: space-around;
     }
-}
+/* } */

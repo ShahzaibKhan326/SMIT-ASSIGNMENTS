@@ -257,4 +257,11 @@
 {
     border-bottom:6px solid #1B53BA;
 }
-
+.fa-bars
+{
+    display: none;
+}
+.fa-address-card
+{
+    display: none;
+}
