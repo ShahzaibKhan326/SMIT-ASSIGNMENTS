@@ -491,19 +491,20 @@
 {
     /* border:2px solid purple ; */
     width: 290px;
-    height: 190px;
+    height: 150px;
      border-top-left-radius:10px ;
      border-top-right-radius:10px ;
 }
 .box .description
 {
+    padding:5px 0px 0px 0px;
     width:290px;
-    height: 45px;
+    height: 80px;
     text-align:center;
     color:white;
     text-shadow:0px 0px 2px black;
     background-color: orange;
-    font-size: 18px;
+    font-size: 24px;
     border-bottom-left-radius:10px ;
     border-bottom-right-radius:10px ;
 }
@@ -540,10 +541,138 @@
     height: 100px;
     background-color: #B89355;
 }
+.viewMore .text
+{
+    font-size:30px;
+    color:white;
+    text-shadow: 2px 2px 2px gray;
+}
+.v1 {
+    border-bottom-left-radius: 25px;
+}
+.v2 {
+     border-bottom-right-radius: 25px;
+}
+.main02
+{
+    /* display: none; */
+}
 .main-section
 {
-    display: none;
+    /* display: none; */
 }
 .header-container {
-    display: none;
+    /* display: none; */
 }  
+.end-section 
+{
+    color:white;
+    margin:5px auto;
+    width:920px;
+    border:1px solid red;
+    background-color:black;
+    border-radius:8px;
+}
+.login-section
+{
+    width: 50%;
+    align-items: flex-start;
+    justify-content: center;
+    gap:10px;
+    padding:20px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-section h3 
+{
+    font-size: 25px;
+}
+.checkbox-section
+{
+    width: 50%;
+}
+/*login*/
+ input
+ {
+    height: 35px;
+    font-size: 18px;
+    padding:5px;
+ }
+.login
+{
+    width:330px;
+    
+    /* border:1px solid red; */
+}
+select
+{
+    width: 163px;
+    height:35px ;
+    margin-right:5px;
+}
+ .date 
+{
+    width:163px ; 
+}
+.checkbox-section
+{
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid red; */
+}
+.label
+{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    /* border:1px solid red; */
+    height: 35px;
+}
+
+.label input[type=checkbox] {
+    width: 50px;
+    height: 30px;
+}
+.labels
+{
+    /* border:1px solid lime; */
+    display: flex;
+    flex-flow:column;
+}
+.checkHeader
+{
+    margin-left:10px;
+    font-size: 20px;
+    text-shadow: 0px 0px 2px yellow;
+    font-weight: bold;
+}
+.login-btn
+{
+    padding:14px 20px;
+    background-color: #888888;
+    border-radius: 8px;
+    border:none;
+}
+/*end section two*/
+ul 
+{
+    list-style: none;
+}
+.list-section , .social-section , .term-section
+{
+    width: 33%;
+}
+.list-section 
+{
+    border:1px solid lime;
+    display:flex;
+    gap:20px;
+}
+.list-section li
+{
+    padding:5px;
+    font-size: 17px;
+}
+.social-section
+{
+    
+}
