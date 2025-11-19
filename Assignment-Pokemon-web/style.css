@@ -84,8 +84,7 @@
 .long-image
 {
     opacity: 1;
-    transition: all 0.5 ease;
-
+    transition: opacity 0.3 ease;
 }
 .long-image:hover .opacity
 {
@@ -322,6 +321,8 @@
     gap:15px;
     text-align: center;
     font-size:18px;
+    
+
 }
 .description .one 
 {
@@ -337,8 +338,7 @@
 .section01 .column-1 , .section01 .column-2
 {
     width: 50%;
-    /* height: 289px; */
-    height: 110%;
+    height: 289px;
     background-color: orange;
     text-align: center;
     color:white;
@@ -356,7 +356,7 @@
 .section01 .column-1 .description , .section01 .column-2 .description
 {
     width: 100%;
-    /* height: 25%; */
+    height: 25%;
     background-color: #975FE2;
     padding:5px 0px;
     text-shadow: 2px 2px 2px black;
@@ -397,8 +397,7 @@
     text-align: center;
     width: 100%;
     height: 23%;
-    /* font-size:20px; */
-    font-size:0.8rem;
+    font-size:20px;
     /* border:1px solid black; */
     margin-top:px;
 }
@@ -440,8 +439,7 @@
     width: 50%;
     /* border:1px solid red; */
     color:white;
-    /* font-size: 20px; */
-    font-size: 0.8rem;
+    font-size: 20px;
     text-shadow: 2px 2px 2px black;
 }
 
