@@ -19,6 +19,7 @@
         height: 250px;
         /* border:1px solid red; */
         display: none;
+        z-index: 10;
     }
     .header-content01
     {
@@ -141,4 +142,44 @@
     color:white;
   }
   /*main section*/
+  .main-section
+  {
+    width: 100%;
+    flex-flow: column;
+    gap:0px;
+  }
+  .section01
+  {
+    flex-flow:column;
+    width: 100%;
+    border:1px solid black;
+    /* height: 90%; */
+  }
+  .section01 .itemOne
+  {
+    /* border:1px solid red; */
+    height: 60%;
+  }
+  .second-section 
+  {
+    /* border:5px solid red; */
+    padding:2px 0px;
+      width: 100%;
+      height:40%;
+  }
+  .section02
+  {
+    width: 100%;
+    flex-flow:column;
+    text-align: center;
+  }
+  .row .description
+  {
+  /* border:1px solid black; */
+  font-size:13px;
+  }
+  .section02 .itemThree .description
+  {
+    text-align: center;
+  }
 }
