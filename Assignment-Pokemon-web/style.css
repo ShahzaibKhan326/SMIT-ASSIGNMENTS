@@ -617,6 +617,7 @@ select
 {
     justify-content: center;
     align-items: center;
+    gap:30px;
     /* border:1px solid red; */
 }
 .label
@@ -640,10 +641,11 @@ select
 }
 .checkHeader
 {
-    margin-left:10px;
+    /* margin-left:10px; */
     font-size: 20px;
     text-shadow: 0px 0px 2px yellow;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .login-btn
 {
@@ -663,7 +665,7 @@ ul
 }
 .list-section 
 {
-    border:1px solid lime;
+    /* border:1px solid lime; */
     display:flex;
     gap:20px;
 }
@@ -671,8 +673,80 @@ ul
 {
     padding:5px;
     font-size: 17px;
+    cursor: pointer;
 }
-.social-section
+.social-icon
 {
-    
+    /* border:1px solid lime; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    font-size: 45px;
+    cursor: pointer;
+
 }
+.fa-facebook
+{
+    color:blue;
+}
+.fa-square-instagram
+{
+    color:#DA471B;
+}
+.fa-square-twitter
+{
+  color:lightskyblue;
+}
+.fa-youtube
+{
+    color:red;
+}
+.fa-square-pinterest
+{
+    color:#DA471B;
+}
+/*term section*/
+
+.term 
+{
+    width: 100%;
+    /* border:1px solid lime; */
+    gap:10px;
+    padding:5px
+}
+.term-list li
+{
+    padding:5px 0px;
+    cursor: pointer;
+}
+.term-image
+{
+    width: 90px;
+    height: 50px;
+    background-color: white;
+    border-radius: 1px;
+    margin-left: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.caru
+{
+    color:black;
+    background:yellow;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black; 
+}
+.end-section01
+{
+    /* gap:20px; */
+    /* border-bottom: 2px solid yellow; */
+    margin-bottom:20px;
+}
+
