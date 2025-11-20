@@ -81,7 +81,7 @@
 }
 .img1
 {
-    background: white url(/Images/Header01/logo-pokemon-79x45.png) no-repeat center;
+    background: white url(Images/Header01/logo-pokemon-79x45.png) no-repeat center;
     /* box-shadow: 5px 0px 4px gray; */
       box-shadow: 
       5px 0 5px -5px rgba(0, 0, 0, 0.5), 
@@ -794,7 +794,7 @@ ul
     width: 60%;
     height: 80%;
     background-color:transparent;
-    margin-top:40px;
+    margin-top:20px;
 }
 .pickachu-02 img
 {
@@ -806,35 +806,68 @@ ul
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
+
 .box-item .details
 {
     width: 100%;
-    height: 50%;
+    height:120px;
     background-color:rgb(35, 35, 35);
+    /* border:1px solid lime; */
+    gap:5px;
 }
+.details .row
+{
+    width: 100%;
+    /* border: 1px solid brown; */
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 5px;
+}
+
 .poki-name , .poki-number
 {
     font-size: 30px;
 }
 .form {
-    background-color: #30A7D7;
+    /* background-color: #30A7D7; */
     padding:4px 16px;
-    margin-right:130px;
     border-radius: 4px;
     margin-bottom:5px;
 }
 .power {
-    /* background-color: #30A7D7; */
+    background-color: goldenrod;
     padding:4px 16px;
-    margin-right:130px;
     border-radius: 4px;
     margin-bottom:5px;
+    /* border:1px solid red; */
+    
+}
+.fire 
+{
+    background-color:#E6BC2F;
+
+}
+.rock {
+    background-color:rosybrown;
+}
+.water 
+{
+    background-color:#30A7D7;
+}
+.orange 
+{
+    background-color:#E29A7E;
+}
+.fighting
+{
+    background-color: #4DAD5B;
 }
 .box-item:hover 
 {
     transform: scale(1.1);
     transition: transform 0.5s ease;
     /* margin-left:20px; */
+
     margin:0px 20px;
     
 }
@@ -843,10 +876,4 @@ ul
     transform: scale(1.3);
     transition: transform 0.5s ease;
 }
-.detail 
-{
-    /* height: 20px; */
-    justify-content: space-between;
-    align-items: center;
-    padding:15px;
-}
+
