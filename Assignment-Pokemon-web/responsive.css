@@ -3,8 +3,7 @@
    
   .container {
     border:5px solid brown;
-    display: flex;
-    flex-flow:column;
+   
   }
    .header-container
    {
@@ -149,7 +148,9 @@
   /*main section*/
   .main-section
   {
+    /* border:2px solid blue; */
     width: 100%;
+    height: 100%;
     flex-flow: column;
     gap:0px;
   }
@@ -190,7 +191,7 @@
   /*end section*/
   .end-section
   {
-    display: none;
+    /* display: none; */
    width: 100%;
   }
   .end-section01
@@ -234,10 +235,10 @@
 
   .main02
   {
-    border:4px solid lime;
+    /* border:4px solid lime; */
     width: 100%;
     flex-flow:column;
-    display: none;
+    /* display: none; */
   }
   .box img {
     width: 100%;
@@ -264,6 +265,15 @@
     /* border:4px solid lime; */
     font-size:30px;  
   }
+  .box img 
+  {
+    height: 80%;
+  }
+  .box
+  {
+    height: 350px;
+    /* border:1px solid red; */
+  }
   .v1
   {
     display: none;
@@ -271,6 +281,7 @@
 .viewMore
 {
   width: 100%;
+  height: 100px;
 }
   .box6
   {
@@ -283,6 +294,17 @@
   .text
   {
     text-align: center;
+  }
+  .section02 .itemThree .description
+  {
+    /* border:1px solid lime; */
+    padding:30px 10px;
+    font-size: 24px;
+    height: 250px;
+  }
+  .section02 .itemThree img 
+  {
+    height: 255px;
   }
 
 }
