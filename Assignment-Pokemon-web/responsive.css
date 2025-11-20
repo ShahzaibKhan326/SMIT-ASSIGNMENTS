@@ -182,4 +182,46 @@
   {
     text-align: center;
   }
+  /*end section*/
+  .end-section
+  {
+   width: 100%;
+  }
+  .end-section01
+  {
+    flex-flow:column;
+  }
+  .checkbox-section
+  {
+    width: 100%;
+  }
+  .end-section02
+  {
+    flex-flow:column;
+    width: 100%;
+  }
+  .list-section
+  {
+    width: 100%;
+    text-align: center;
+  }
+  .social-section
+  {
+    width: 100%;
+  }
+  .term
+  {
+    text-align: center;
+    width: 100%;
+    /* border:1px solid red; */
+  }
+  .term-image
+  {
+    margin:0px auto;
+  }
+  .term-section
+  {
+    width:100%;
+    text-align: center;
+  }
 }

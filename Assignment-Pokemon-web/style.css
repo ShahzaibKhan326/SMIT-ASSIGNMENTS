@@ -731,6 +731,16 @@ ul
     justify-content: center;
     align-items: center;
 }
+.term-list
+{
+    font-size:8px;
+    font-weight: bold;
+}
+.copywrite
+{
+    font-size: 10px;
+    font-weight: bold;
+}
 .caru
 {
     color:black;
@@ -745,8 +755,6 @@ ul
 }
 .end-section01
 {
-    /* gap:20px; */
-    /* border-bottom: 2px solid yellow; */
     margin-bottom:20px;
 }
 
