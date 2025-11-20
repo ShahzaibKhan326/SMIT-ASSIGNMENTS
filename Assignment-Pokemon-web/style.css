@@ -806,7 +806,6 @@ ul
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
-
 .box-item .details
 {
     width: 100%;
@@ -823,7 +822,6 @@ ul
     justify-content: space-between;
     padding:0px 5px;
 }
-
 .poki-name , .poki-number
 {
     font-size: 30px;
@@ -839,8 +837,7 @@ ul
     padding:4px 16px;
     border-radius: 4px;
     margin-bottom:5px;
-    /* border:1px solid red; */
-    
+    /* border:1px solid red; */ 
 }
 .fire 
 {
