@@ -189,7 +189,7 @@
 
 .poki-ball
 {
-      background-image:url(/Images/Header02-icons/pokeball-icon-27047.jpg);
+      background-image:url(Images/Header02-icons/pokeball-icon-27047.jpg);
       border-radius: 50%;  
 }
 .border-red
@@ -203,7 +203,7 @@
 }
 .game-pad
 { 
-    background-image: url(/Images/Header02-icons/game_controller02.png); 
+    background-image: url(Images/Header02-icons/game_controller02.png); 
 }
 .border-orange
 {
@@ -216,7 +216,7 @@
 }
 .trading-card
 {
-   background-image: url(/Images/Header02-icons/tradding_cards.png);  
+   background-image: url(Images/Header02-icons/tradding_cards.png);  
    /* transform: rotate(350deg); */
 }
 .trading-item:hover {
@@ -228,7 +228,7 @@
 }
 .animation
 { 
-    background-image: url(/Images/Header02-icons/playButton.png); 
+    background-image: url(Images/Header02-icons/playButton.png); 
 }
 .border-green 
 {
@@ -240,7 +240,7 @@
 }
 .cup
 { 
-    background-image: url(/Images/Header02-icons/cup.png); 
+    background-image: url(Images/Header02-icons/cup.png); 
     background-size: 65px 65px;
 }
 .cup-item:hover
@@ -253,7 +253,7 @@
 }
 .news-paper
 { 
-    background-image: url(/Images/Header02-icons/news-paper.png );
+    background-image: url(Images/Header02-icons/news-paper.png );
     background-size: 65px 65px;
 }
 .news-paper-item:hover
