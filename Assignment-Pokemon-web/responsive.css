@@ -1,6 +1,11 @@
 /*Header responsive*/
 @media only screen and (max-width:750px){
    
+  .container {
+    border:5px solid brown;
+    display: flex;
+    flex-flow:column;
+  }
    .header-container
    {
     position: relative;
@@ -185,6 +190,7 @@
   /*end section*/
   .end-section
   {
+    display: none;
    width: 100%;
   }
   .end-section01
@@ -224,4 +230,59 @@
     width:100%;
     text-align: center;
   }
+  /*main02*/
+
+  .main02
+  {
+    border:4px solid lime;
+    width: 100%;
+    flex-flow:column;
+    display: none;
+  }
+  .box img {
+    width: 100%;
+  };
+  
+  .main2-section01 
+  {
+    /* border:2px solid red; */
+    width: 100%;
+  }
+  
+  .main2-section02 
+  {
+    width: 100%;
+    gap:5px;
+  }
+  .main2-section03 
+  {
+    width: 100%;
+    gap:5px;
+  }
+  .box .description
+  {
+    /* border:4px solid lime; */
+    font-size:30px;  
+  }
+  .v1
+  {
+    display: none;
+  }
+.viewMore
+{
+  width: 100%;
+}
+  .box6
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid lime; */
+    width: 100%;
+  }
+  .text
+  {
+    text-align: center;
+  }
+
 }

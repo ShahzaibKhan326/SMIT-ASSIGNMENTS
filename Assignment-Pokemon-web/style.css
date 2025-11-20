@@ -456,9 +456,7 @@
       background-color: white;
       display: flex;
       gap:10px;
-      justify-content: center;
-
-
+      /* justify-content: center; */
 }
 
 .main02 .section01
@@ -485,6 +483,7 @@
     display: flex;
     flex-flow:column;
     padding:5px;
+
     /* border:1px solid lime; */
 }
 .box img
@@ -498,12 +497,11 @@
 .box .description
 {
     padding:5px 0px 0px 0px;
-    width:290px;
     height: 80px;
     text-align:center;
     color:white;
+    background-color: #DAA31C;
     text-shadow:0px 0px 2px black;
-    background-color: orange;
     font-size: 24px;
     border-bottom-left-radius:10px ;
     border-bottom-right-radius:10px ;
@@ -553,17 +551,7 @@
 .v2 {
      border-bottom-right-radius: 25px;
 }
-.main02
-{
-    /* display: none; */
-}
-.main-section
-{
-    /* display: none; */
-}
-.header-container {
-    /* display: none; */
-}  
+
 .end-section 
 {
     color:white;
